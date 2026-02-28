@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Expertise icon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1b2d" />
+      <stop offset="100%" stop-color="#09273a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)" />
+
+  <path d="M72 80h112c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H72c-13.3 0-24-10.7-24-24v-48c0-13.3 10.7-24 24-24z"
+        fill="none" stroke="url(#accent)" stroke-width="12" />
+
+  <path d="M92 128h72" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" />
+  <path d="M84 108l-18 20 18 20" fill="none" stroke="#c7f9ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M172 108l18 20-18 20" fill="none" stroke="#c7f9ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+
+  <circle cx="188" cy="68" r="22" fill="#0d3344" stroke="#67e8f9" stroke-width="6" />
+  <path d="M188 50l4.9 9.9 10.9 1.6-7.9 7.7 1.9 10.8-9.8-5.1-9.8 5.1 1.9-10.8-7.9-7.7 10.9-1.6z"
+        fill="#67e8f9" />
+</svg>
+
