@@ -220,8 +220,8 @@ const Projects: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-8">
-          <div className="relative flex-1 max-w-md">
+        <div className="flex flex-col gap-3 mb-8">
+          <div className="relative w-full">
             <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-500" />
             <input
               type="text"
@@ -232,7 +232,7 @@ const Projects: React.FC = () => {
             />
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             {allCategories.map((cat) => (
               <button
                 key={cat}
